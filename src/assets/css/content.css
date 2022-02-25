@@ -30,11 +30,11 @@ a:hover{
     margin: 0 20%;
 }
 
-.vertical-center{
+.horizontal-center{
     justify-content: center;
 }
 
-.horizontal-center{
+.vertical-center{
     align-items: center;
 }
 
@@ -43,11 +43,19 @@ h1{
 }
 
 h4{
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.direction-column{
+.column{
     flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 .flex-right{
@@ -69,4 +77,18 @@ section{
 
 .button:hover{
     background: var(--button-color-hover);
+}
+
+.full-width{
+    width: 100%;
+}
+
+.container{
+    background-color: var(--container-color-background);
+    border-radius: 8px;
+}
+
+.anchor-bottom{
+    position: absolute;
+    bottom:0;
 }

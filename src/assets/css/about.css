@@ -1,6 +1,56 @@
 @import 'variables.css';
 @import 'content.css';
 
-.about{
-    height: 100vh;
+main > .about{
+    padding: 60px 5%;
+    background: rgb(230, 227, 227);
+    color: var(--font-color-secundary);        
 }
+
+.about > div{
+    width: 100%;
+    gap: 50px 50px;
+    flex-wrap: nowrap;
+}
+
+.about > div:last-child{
+    margin-top: 100px;
+}
+
+.about .perfil-image{
+    background: url(../images/perfil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -70px;
+    width: 400px;    
+    height: 400px;
+    border-radius: 50%;
+    border-bottom: 20px solid var(--border-color-perfil);
+    border-right: 20px solid var(--border-color-perfil);
+    filter: sepia(0.3);    
+}
+
+.about div > div p{
+    margin-top: 20px;
+}
+
+.about .skills{
+    gap: 40px 40px;
+}
+
+@media (max-width:1020px)
+{
+    main > .about{
+        padding: 100px 0;
+    }
+}
+
+.about .skills > .skills-container{
+    width: 250px;
+}
+
+.skills-container p{
+    margin-top: 0px !important;
+}
+
+

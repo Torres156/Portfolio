@@ -3,6 +3,7 @@
     --font-color-default: white;
     --font-color-primary: rgb(220,220,220);
     --font-color-primary-hover: white;
+    --font-color-secundary: rgb(75, 74, 74);
 
     --font-color-header-h1: black;
     --font-color-header-a: #5c5a5a;
@@ -11,4 +12,10 @@
     /* Cor de botão */
     --button-color: #b8a07e;
     --button-color-hover: #dbc09b;
+
+    /* Cor de borda */
+    --border-color-perfil: #b8a07e;
+
+    /* Cor de painel */
+    --container-color-background: rgb(184, 181, 181);
 }
