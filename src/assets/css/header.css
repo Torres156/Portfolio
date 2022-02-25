@@ -1,0 +1,31 @@
+@import 'variables.css';
+@import 'content.css';
+
+header{
+    display: none;
+    width: 100%;
+    height: 60px;
+    float:left;
+    position: fixed;
+    background: white;
+    color: var(--font-color-default);      
+    padding: 0 100px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .1);
+}
+
+header h1{
+    color: var(--font-color-header-h1) ;
+}
+
+header > div:last-child{
+    gap: 0 50px;
+}
+
+header a{
+    color: var(--font-color-header-a);
+    font-weight: 500;
+}
+
+header a:hover, .menu-active{
+    color: var(--font-color-header-a-hover);
+}

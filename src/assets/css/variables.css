@@ -1,0 +1,14 @@
+:root{
+    /* Cor de fonts */
+    --font-color-default: white;
+    --font-color-primary: rgb(220,220,220);
+    --font-color-primary-hover: white;
+
+    --font-color-header-h1: black;
+    --font-color-header-a: #5c5a5a;
+    --font-color-header-a-hover: #b8a07e;
+
+    /* Cor de botão */
+    --button-color: #b8a07e;
+    --button-color-hover: #dbc09b;
+}

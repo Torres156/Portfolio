@@ -1,0 +1,6 @@
+@import 'variables.css';
+@import 'content.css';
+
+.about{
+    height: 100vh;
+}
