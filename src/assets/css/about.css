@@ -41,7 +41,14 @@ main > .about{
 @media (max-width:1020px)
 {
     main > .about{
-        padding: 100px 0;
+        padding: 100px 10px;
+    }    
+}
+
+@media(max-width: 800px)
+{
+    .about > div{
+        flex-wrap: wrap !important;
     }
 }
 
