@@ -47,7 +47,7 @@ main > .about{
 
 @media(max-width: 800px)
 {
-    .about > div{
+    .about > div:first-child{
         flex-wrap: wrap !important;
         text-align: center;
     }
