@@ -53,6 +53,14 @@ main > .about{
     }
 }
 
+@media(max-width:420px)
+{
+    .perfil-image{
+        width: 350px !important;
+        height: 350px !important;
+    }
+}
+
 .about .skills > .skills-container{
     width: 250px;
 }
