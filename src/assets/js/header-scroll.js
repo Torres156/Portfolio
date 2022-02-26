@@ -13,7 +13,8 @@ window.addEventListener("scroll", (e) => {
     if (sections.length > 0) {
         sections.forEach(section => {
             const rect = section.getBoundingClientRect();
-            if (rect.top <= 0) {
+            const winHeight = (window.innerHeight || document.documentElement.clientHeight);
+            if (rect.top <= winHeight - 10) {
                 const className = section.className.split(" ")[0];
                 let currentActive = document.getElementsByClassName("menu-active")[0];
                 if (currentActive.classList.contains("menu-active"))
@@ -27,13 +28,4 @@ window.addEventListener("scroll", (e) => {
         });
     }
 })
-
-// function isInViewport(el) {
-//     const rect = el.getBoundingClientRect();
-//     return (
-//         rect.top >= 0 &&
-//         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight));
-
-// };
-
 
