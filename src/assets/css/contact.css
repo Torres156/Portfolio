@@ -1,0 +1,12 @@
+@import 'variables.css';
+@import 'content.css';
+
+main > .contact{
+    padding: 60px 5%;
+    background: rgb(230, 227, 227);
+    color: var(--font-color-secundary);        
+}
+
+.contact a{
+    color: var(--font-color-secundary);
+}
