@@ -10,3 +10,8 @@ main > .contact{
 .contact a{
     color: var(--font-color-secundary);
 }
+
+.contact > div{
+    display: inline-block;
+    width: 50%;
+}
