@@ -51,6 +51,10 @@ main > .about{
         flex-wrap: wrap !important;
         text-align: center;
     }
+
+    .about > div:first-child > div:first-child{
+        margin: 0 auto;
+    }
 }
 
 @media(max-width:420px)
